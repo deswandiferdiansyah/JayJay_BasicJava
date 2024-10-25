@@ -1,5 +1,7 @@
 package VariableIntro;
 
+import java.util.Locale;
+
 public class BelajarCharDanString {
     public static void main(String[] args){
 
@@ -30,5 +32,26 @@ public class BelajarCharDanString {
         4. Char at
         5. Length
          */
+
+
+        String name = "Deswandi Ferdiansyah";
+        System.out.println(name.toLowerCase(Locale.ROOT));
+        System.out.println(name.toUpperCase(Locale.ROOT));
+
+        System.out.println(name.concat("DeswandiFerdiansyah"));
+
+        System.out.println(name.charAt(1));
+
+        System.out.println(name.length());
+
+
+        /* Use Case String
+        1. Get Text Web Element
+        2. Input text
+         */
+
+
+
+
     }
 }
